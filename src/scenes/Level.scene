@@ -1,0 +1,180 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 128,
+        "snapHeight": 128,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b95bf420-8d76-471c-b6a5-a382bc5a413e",
+            "label": "tente",
+            "components": [],
+            "texture": {
+                "key": "tente"
+            },
+            "x": 631,
+            "y": 879
+        },
+        {
+            "prefabId": "7fd22219-dd0c-408d-9b66-7e1e80eea992",
+            "id": "399f20f9-aa82-4e9c-9748-f3bd4e7a715b",
+            "unlock": [
+                "x",
+                "y",
+                "texte",
+                "TexteBtn",
+                "text"
+            ],
+            "label": "Bouton_jouer",
+            "scope": "PUBLIC",
+            "components": [
+                "InteractiveObjet",
+                "CommencerSceneAuClique"
+            ],
+            "x": 959,
+            "y": 356,
+            "nestedPrefabs": [
+                {
+                    "prefabId": "8cb86466-29d3-4542-b7e1-c672a6680e54",
+                    "id": "0b902130-28dc-4137-be9e-99c859f9e2f8",
+                    "unlock": [
+                        "text"
+                    ],
+                    "label": "text_1",
+                    "components": [],
+                    "text": "Jouer"
+                }
+            ],
+            "list": []
+        },
+        {
+            "prefabId": "7fd22219-dd0c-408d-9b66-7e1e80eea992",
+            "id": "61098446-8a1b-4e86-acde-651c02f602ef",
+            "unlock": [
+                "x",
+                "y",
+                "text"
+            ],
+            "label": "Bouton_instructions",
+            "scope": "PUBLIC",
+            "components": [
+                "InteractiveObjet",
+                "CommencerSceneAuClique"
+            ],
+            "x": 959,
+            "y": 562,
+            "nestedPrefabs": [
+                {
+                    "prefabId": "8cb86466-29d3-4542-b7e1-c672a6680e54",
+                    "id": "5b7dd4e2-ebca-4f6c-816b-5deb7480db96",
+                    "unlock": [
+                        "text"
+                    ],
+                    "label": "text_1",
+                    "components": [],
+                    "text": "Instructions"
+                }
+            ],
+            "list": []
+        },
+        {
+            "prefabId": "7048ddbb-6963-44a4-887a-89441d015a35",
+            "id": "5e3d0683-95e5-4fca-be42-26fe9b2ae8db",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "herbe",
+            "components": [],
+            "x": 330,
+            "y": 1052,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "1e7b541c-23ed-4f9d-a3b0-90a8b3517575",
+            "label": "text_2",
+            "components": [],
+            "x": 960,
+            "y": 162.5,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Huipat Aventure",
+            "fontFamily": "Open Sans",
+            "fontSize": "46px",
+            "fontStyle": "bold",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Rectangle",
+            "id": "daf32685-5ec2-4a0e-8fe9-865bb804a3c2",
+            "label": "rectangle_2",
+            "components": [],
+            "x": 961,
+            "y": 188,
+            "scaleX": 2.579608498064135,
+            "scaleY": 0.05439157547258821,
+            "isFilled": true,
+            "fillColor": "7BC624",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "ef016f58-65c2-45ad-94c1-d22a72a9f78e",
+            "label": "feu",
+            "components": [],
+            "texture": {
+                "key": "feu"
+            },
+            "x": 135,
+            "y": 920
+        },
+        {
+            "prefabId": "7048ddbb-6963-44a4-887a-89441d015a35",
+            "id": "411e1bd9-8b8a-408d-8b63-82d639e14761",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "herbe_1",
+            "components": [],
+            "x": 1248,
+            "y": 1051,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "7048ddbb-6963-44a4-887a-89441d015a35",
+            "id": "5fbab93e-788c-43d1-bbc3-32481aa3bbc9",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "herbe_2",
+            "components": [],
+            "x": 2056,
+            "y": 1053,
+            "nestedPrefabs": [],
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

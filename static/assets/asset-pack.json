@@ -1,0 +1,148 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/araigne.svg",
+                "svgConfig": {
+                    "width": 0,
+                    "height": 0,
+                    "scale": 0
+                },
+                "type": "svg",
+                "key": "araigne"
+            },
+            {
+                "url": "assets/arbre.png",
+                "type": "image",
+                "key": "arbre"
+            },
+            {
+                "url": "assets/chauve-souris.svg",
+                "svgConfig": {
+                    "width": 0,
+                    "height": 0,
+                    "scale": 0
+                },
+                "type": "svg",
+                "key": "chauve-souris"
+            },
+            {
+                "url": "assets/coeur.svg",
+                "svgConfig": {
+                    "width": 0,
+                    "height": 0,
+                    "scale": 0
+                },
+                "type": "svg",
+                "key": "coeur"
+            },
+            {
+                "url": "assets/dude.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 48,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "dude"
+            },
+            {
+                "url": "assets/feu.png",
+                "type": "image",
+                "key": "feu"
+            },
+            {
+                "url": "assets/fond.jpg",
+                "type": "image",
+                "key": "fond"
+            },
+            {
+                "url": "assets/fond2.png",
+                "type": "image",
+                "key": "fond2"
+            },
+            {
+                "url": "assets/fond3.png",
+                "type": "image",
+                "key": "fond3"
+            },
+            {
+                "url": "assets/fond4.jpg",
+                "type": "image",
+                "key": "fond4"
+            },
+            {
+                "url": "assets/FufuSuperDino.png",
+                "type": "image",
+                "key": "FufuSuperDino"
+            },
+            {
+                "url": "assets/herbe.svg",
+                "svgConfig": {
+                    "width": 0,
+                    "height": 0,
+                    "scale": 0
+                },
+                "type": "svg",
+                "key": "herbe"
+            },
+            {
+                "url": "assets/huipat.png",
+                "type": "image",
+                "key": "huipat"
+            },
+            {
+                "atlasURL": "assets/liste_atlas.json",
+                "textureURL": "assets/liste_atlas.png",
+                "type": "atlas",
+                "key": "liste_atlas"
+            },
+            {
+                "url": "assets/tente.svg",
+                "svgConfig": {
+                    "width": 0,
+                    "height": 0,
+                    "scale": 0
+                },
+                "type": "svg",
+                "key": "tente"
+            },
+            {
+                "url": "assets/test.json",
+                "type": "tilemapTiledJSON",
+                "key": "test"
+            },
+            {
+                "url": "assets/tiles_packed.png",
+                "type": "image",
+                "key": "tiles_packed"
+            },
+            {
+                "url": "assets/toile.png",
+                "type": "image",
+                "key": "toile"
+            },
+            {
+                "atlasURL": "assets/atlas/ui.json",
+                "textureURL": "assets/atlas/ui.png",
+                "type": "atlas",
+                "key": "ui"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "components": [
+        {
+            "name": "ScrollFactor",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image|Phaser.GameObjects.Text",
+            "properties": [
+                {
+                    "name": "x",
+                    "label": "X",
+                    "tooltip": "X",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "y",
+                    "label": "Y",
+                    "tooltip": "Y",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PlayerController",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "player",
+                    "label": "Player",
+                    "tooltip": "Player",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "direction",
+                    "label": "Direction",
+                    "tooltip": "Direction",
+                    "defValue": "left",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "left",
+                            "right",
+                            "up",
+                            "down",
+                            "space"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - User Components Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.UserComponents"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "exportClass": true,
+    "autoImport": true
+}
